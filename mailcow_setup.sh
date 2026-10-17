@@ -47,7 +47,7 @@ EOF
 
 chmod 600 ~/.secrets/certbot/cloudflare.ini
 
-# Certbot ile SSL Alma (DNS yayılması için bekleme süresi 30s yapıldı)
+# Certbot ile SSL Alma (DNS yayılması için bekleme süresi 30sn yapıldı)
 sudo certbot certonly \
   --dns-cloudflare \
   --dns-cloudflare-credentials ~/.secrets/certbot/cloudflare.ini \
